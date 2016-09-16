@@ -342,6 +342,16 @@ small { line-height: 1; }
 	fill: currentColor;
 }
 
+// SVG sprite
+
+.svg-sprite--hidden {
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
 
 /*
  *  UTILITY CLASSES
@@ -369,7 +379,6 @@ small { line-height: 1; }
   position: absolute;
   width: 1px; 
 }
-
 
 /*
  *  PRINT STYLES
