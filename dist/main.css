@@ -303,6 +303,12 @@ small {
     .main_image_container:after {
       padding-bottom: 61%; } }
 
+.main-action {
+  position: absolute;
+  bottom: 18%;
+  width: 100%;
+  text-align: center; }
+
 .main_nav {
   padding: 0.4em 0 0.2em;
   text-align: center;
@@ -337,15 +343,12 @@ small {
 .main_footer {
   position: relative;
   padding: 0 1em;
-  margin-top: -20px;
   text-align: center; }
   .main_footer img {
     margin: 1em 0; }
   @media only screen and (min-width: 480px) {
-    .main_footer {
-      margin-top: -50px; }
-      .main_footer img {
-        margin: 1em; } }
+    .main_footer img {
+      margin: 1em; } }
 
 .icon {
   display: inline-block;
@@ -374,15 +377,18 @@ small {
   font-weight: 700;
   letter-spacing: 1px;
   padding: 0.3em 0.8em;
-  background-color: #82b73c;
   text-transform: uppercase;
-  border-bottom: 3px solid #5e8826;
   box-shadow: none;
-  text-shadow: 0 -1px 0px rgba(255, 205, 95, 0.6);
   outline: none;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   transition: all 0.2s; }
+  .btn-simple--green {
+    background-color: #82b73c;
+    border-bottom: 3px solid #5e8826; }
+  .btn-simple--grey {
+    background-color: #222;
+    border-bottom: 3px solid #111; }
   .btn-simple:hover, .btn-simple:active, .btn-simple:focus {
     background-color: #3aa026;
     border-bottom: 3px solid #145407;
