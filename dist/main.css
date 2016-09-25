@@ -378,6 +378,7 @@ small {
   letter-spacing: 1px;
   padding: 0.3em 0.8em;
   text-transform: uppercase;
+  border-radius: 3px 3px 4px 4px;
   box-shadow: none;
   outline: none;
   cursor: pointer;
