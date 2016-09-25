@@ -170,6 +170,7 @@
 						var dialog = new window.A11yDialog(dialogEl, mainEl);
 
 						dialogEl.addEventListener('dialog:show', function (e) {
+							document.body.scrollTop = 0;
 							document.body.classList.toggle('u-no-overflow');
 						});
 
